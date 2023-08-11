@@ -1,0 +1,20 @@
+$primary : #51B1A6;
+$secondary : #5E5BD9;
+$dark: #24243F;
+$light: #FAFCFE;
+$link-color: #000;
+$link-hover-color: #ff7a3d;
+
+@import './node_modules/bootstrap/scss/bootstrap';
+
+.main-logo{
+    height: 75px;
+}
+
+.transition-1{
+    transition: 0.3s;
+}
+
+.transition-2{
+    transition: 0.5s;
+}
