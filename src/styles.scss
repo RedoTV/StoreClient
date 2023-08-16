@@ -3,7 +3,7 @@ $secondary : #5E5BD9;
 $dark: #24243F;
 $light: #FAFCFE;
 $link-color: #000;
-$link-hover-color: #FD974F;
+$link-hover-color: #5b5b5b;
 
 @import './node_modules/bootstrap/scss/bootstrap';
 
@@ -27,7 +27,16 @@ $link-hover-color: #FD974F;
     height: 5vh;
 }
 
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    min-height: 100%;
+}
+
 main{
-    background-color: #fbf9f9;
-    min-height: 85vh;
+    padding-top: 20px;
+    padding-bottom: 75px;
 }
