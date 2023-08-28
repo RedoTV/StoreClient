@@ -1,6 +1,5 @@
-import { Product } from "../models/product";
-
+import { Observable } from "rxjs";
+import Product from "../models/product";
 export interface IProductsService{
-    getAll():Product[];
-    
+    getAll():Observable<Product[]>;
 }
